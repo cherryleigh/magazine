@@ -1,1 +1,43 @@
+body {
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+div {
+  bg-color: white;
+  color: black;
+  font-weight: bold;
+  border: 3px solid #080808;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: #0a0336;
+  color: white;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+  background-color: #aa9df5;
+}
+
+a:active {
+  color: blue;
+}
