@@ -1,0 +1,23 @@
+body {
+  background-image: url("https://i.pinimg.com/1200x/3d/93/46/3d934670b0b96a6e6ac5c01aca1120d1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+   background-size: cover;
+   filter: blur(4px);
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+  
