@@ -4,7 +4,7 @@ body, html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.bg-image {
+div.bg-image {
   background-image: url("https://i.pinimg.com/1200x/3d/93/46/3d934670b0b96a6e6ac5c01aca1120d1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@ body, html {
    filter: blur(4px);
 }
 
-.bg-text {
+div.bg-text {
   background-color: rgb(0,0,0); 
   color: white;
   font-weight: bold;
